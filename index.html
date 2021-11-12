@@ -127,17 +127,17 @@
         var editModeIs = false;
         var selectedObj = {};
         var getDataFromLocalStrg = localStorage.getItem("myStdntInfoData");
-        // if (getDataFromLocalStrg) {
-        //     globalData = JSON.parse(getDataFromLocalStrg);
-        //     updateData(globalData);
-        // } else {
-        readTextFile("Json.json", function (text) {
-            var data = JSON.parse(text);
-            console.log("data", data);
-            globalData = data;
-            updateData(data);
-        });
-        // }
+        if (getDataFromLocalStrg) {
+            globalData = JSON.parse(getDataFromLocalStrg);
+            updateData(globalData);
+        } else {
+            readTextFile("Json.json", function (text) {
+                var data = JSON.parse(text);
+                console.log("data", data);
+                globalData = data;
+                updateData(data);
+            });
+        }
 
         function delfun(data) {
             for (let i = 0; i < globalData.length; i++) {
