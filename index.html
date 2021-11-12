@@ -127,17 +127,17 @@
         var editModeIs = false;
         var selectedObj = {};
         var getDataFromLocalStrg = localStorage.getItem("myStdntInfoData");
-        // if (getDataFromLocalStrg) {
-        //     globalData = JSON.parse(getDataFromLocalStrg);
-        //     updateData(globalData);
-        // } else {
-        readTextFile("Json.json", function (text) {
-            var data = JSON.parse(text);
-            console.log("data", data);
-            globalData = data;
-            updateData(data);
-        });
-        // }
+        if (getDataFromLocalStrg) {
+            globalData = JSON.parse(getDataFromLocalStrg);
+            updateData(globalData);
+        } else {
+            readTextFile("Json.json", function (text) {
+                var data = JSON.parse(text);
+                console.log("data", data);
+                globalData = data;
+                updateData(data);
+            });
+        }
 
         function delfun(data) {
             for (let i = 0; i < globalData.length; i++) {
@@ -188,7 +188,8 @@
                 langTD.innerHTML = element.languages;
 
                 var editTD = document.createElement("TD");
-                var editbtn = "<button class='btn btn-primary' onclick='addAndEditDetails(" + JSON.stringify(element) +
+                var editbtn = "<button class='btn btn-primary' onclick='addAndEditDetails(" + JSON.stringify(
+                        element) +
                     ",\"edit\")'> Edit </button>";
                 editTD.innerHTML = editbtn;
 
