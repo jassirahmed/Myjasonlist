@@ -1,0 +1,144 @@
+
+ [
+        {
+            "firstName": "Jassir",
+            "lastName": "Ahmed",
+            "occupation": "IT,Developer",
+            "number": "7710957885",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "jassirahmed123@gmail.com",
+            "dateofbirth": "25/09/1998",
+            "id":1,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Jamal",
+            "lastName": "Mohammad",
+            "occupation": "IT,Developer",
+            "number": "8655305749",
+            "gender": "Male",
+            "status": "Settled",
+            "email": "jamalmohd123@gmail.com",
+            "dateofbirth": "28/05/1996",
+            "id":2,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+
+        },
+        {
+            "firstName": "Jaffar",
+            "lastName": "Ali",
+            "occupation": "IT,Developer",
+            "number": "9167756584",
+            "gender": "Male",
+            "status": "Settled",
+            "email": "jaffarali123@gmail.com",
+            "dateofbirth": "23/10/1987",
+            "id":3,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Azhar",
+            "lastName": "Uddin",
+            "occupation": "IT,Developer",
+            "number": "9702914246",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "axhar123@gmail.com",
+            "dateofbirth": "13/07/2002",
+            "id":4,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Apsar",
+            "lastName": "Rafiyullah",
+            "occupation": "Degere completed",
+            "number": "7639279164",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "apsar123@gmail.com",
+            "dateofbirth": "09/03/1999",
+            "id":5,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Safwan",
+            "lastName": "Ahmed",
+            "occupation": "IT,Developer",
+            "number": "8108360326",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "safwanahmed123@gmail.com",
+            "dateofbirth": "05/04/2003",
+            "id":6,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Fardeen",
+            "lastName": "Shaikh",
+            "occupation": "IT,Developer",
+            "number": "8686842003",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "fardeen123@gmail.com",
+            "dateofbirth": "29/08/2003",
+            "id":7,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Fayas",
+            "lastName": "Ahmed",
+            "occupation": "IT,Developer",
+            "number": "8686842003",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "fayas123@gmail.com",
+            "dateofbirth": "07/01/2000",
+            "id":8,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Fayas",
+            "lastName": "Shaikh",
+            "occupation": "Degeree Completed",
+            "number": "8686842003",
+            "gender": "Male",
+            "status": "Searching for Job",
+            "email": "fayasshaih123@gmail.com",
+            "dateofbirth": "29/05/2001",
+            "id":9,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        },
+        {
+            "firstName": "Sasi ",
+            "lastName": "kanth",
+            "occupation": "Degree Completed",
+            "number": "8686842003",
+            "gender": "Male",
+            "status": "Web Desinger",
+            "email": "sasi123@gmail.com",
+            "dateofbirth": "07/07/1998",
+            "id":10,
+            "languages":[
+                "Tamil","English","Hindi"
+            ]
+        }
+    ]
