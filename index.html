@@ -25,6 +25,10 @@
             border-radius: 30px;
             width: 1500px;
         }
+
+        .all-list {
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -33,7 +37,7 @@
         <div class="text-end p-3"><button class="btn btn-primary" onclick="addAndEditDetails(null,'add')">+ Add</button>
         </div>
         <table class="table">
-            <thead>
+            <thead class="all-list">
                 <tr>
                     <th scope="col">Sr. No.</th>
                     <th scope="col">First Name</th>
@@ -49,7 +53,7 @@
                     <th scope="col">Delete</th>
                 </tr>
             </thead>
-            <tbody id="DataTable">
+            <tbody class="all-list" id="DataTable">
 
             </tbody>
         </table>
