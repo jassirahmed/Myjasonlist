@@ -159,7 +159,7 @@
         // if (getDataFromLocalStrg) {
         //     globalData = JSON.parse(getDataFromLocalStrg);
         //     updateData(globalData);
-        // } else {
+        // } else { 
         readTextFile("/Json.json", function (text) {
             var data = JSON.parse(text);
             console.log("data", data);
