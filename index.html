@@ -156,17 +156,17 @@
         var editModeIs = false;
         var selectedObj = {};
         var getDataFromLocalStrg = localStorage.getItem("myStdntInfoData");
-        if (getDataFromLocalStrg) {
-            globalData = JSON.parse(getDataFromLocalStrg);
-            updateData(globalData);
-        } else {
-            readTextFile("/Json.json", function (text) {
-                var data = JSON.parse(text);
-                console.log("data", data);
-                globalData = data;
-                updateData(data);
-            });
-        }
+        // if (getDataFromLocalStrg) {
+        //     globalData = JSON.parse(getDataFromLocalStrg);
+        //     updateData(globalData);
+        // } else {
+        readTextFile("/Json.json", function (text) {
+            var data = JSON.parse(text);
+            console.log("data", data);
+            globalData = data;
+            updateData(data);
+        });
+        // }
 
         function delfun(data) {
             for (let i = 0; i < globalData.length; i++) {
@@ -336,14 +336,14 @@
                 }
                 //DOB Validation
                 var DOB = dobval;
-                var monthNames = ["January", "February", "March", "April", "May", "June",
-                    "July", "August", "September", "October", "November", "December"
+                var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
                 ];
                 var dateObj = new Date(DOB);
                 var month = monthNames[dateObj.getMonth(DOB)];
                 var day = String(dateObj.getDate(DOB)).padStart(2, '0');
                 var year = dateObj.getFullYear(DOB);
-                var output = day + '/' + month + '/' + year;
+                var output = day + ' ' + month + ' ' + year;
 
                 document.getElementById('dob').innerHTML = output;
                 console.log("output", output);

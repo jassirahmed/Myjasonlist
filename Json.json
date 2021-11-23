@@ -8,7 +8,7 @@
             "gender": "Male",
             "status": "Searching for Job",
             "email": "jassirahmed123@gmail.com",
-            "dateofbirth": "25/September/1998",
+            "dateofbirth": "25/Sep/1998",
             "id":1,
             "languages":[
                 "Tamil","English","Hindi"
@@ -37,7 +37,7 @@
             "gender": "Male",
             "status": "Settled",
             "email": "jaffarali123@gmail.com",
-            "dateofbirth": "23/October/1987",
+            "dateofbirth": "23/Oct/1987",
             "id":3,
             "languages":[
                 "Tamil","English","Hindi"
@@ -51,7 +51,7 @@
             "gender": "Male",
             "status": "Searching for Job",
             "email": "axhar123@gmail.com",
-            "dateofbirth": "13/July/2002",
+            "dateofbirth": "13/Jul/2002",
             "id":4,
             "languages":[
                 "Tamil","English","Hindi"
@@ -65,7 +65,7 @@
             "gender": "Male",
             "status": "Searching for Job",
             "email": "apsar123@gmail.com",
-            "dateofbirth": "09/March/1999",
+            "dateofbirth": "09/Mar/1999",
             "id":5,
             "languages":[
                 "Tamil","English","Hindi"
@@ -79,7 +79,7 @@
             "gender": "Male",
             "status": "Searching for Job",
             "email": "safwanahmed123@gmail.com",
-            "dateofbirth": "05/April/2003",
+            "dateofbirth": "05/Apr/2003",
             "id":6,
             "languages":[
                 "Tamil","English","Hindi"
@@ -93,7 +93,7 @@
             "gender": "Male",
             "status": "Searching for Job",
             "email": "fardeen123@gmail.com",
-            "dateofbirth": "29/August/2003",
+            "dateofbirth": "29/Aug/2003",
             "id":7,
             "languages":[
                 "Tamil","English","Hindi"
@@ -107,7 +107,7 @@
             "gender": "Male",
             "status": "Searching for Job",
             "email": "fayas123@gmail.com",
-            "dateofbirth": "07/January/2000",
+            "dateofbirth": "07/Jan/2000",
             "id":8,
             "languages":[
                 "Tamil","English","Hindi"
@@ -135,7 +135,7 @@
             "gender": "Male",
             "status": "Web Desinger",
             "email": "sasi123@gmail.com",
-            "dateofbirth": "07/July/1998",
+            "dateofbirth": "07/Jul/1998",
             "id":10,
             "languages":[
                 "Tamil","English","Hindi"
